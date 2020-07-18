@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#plan{
+    //background: $gray-500;
+}
+
+#plan tr th{
+    padding: 2px 12px;
+}
+#plan tr td {
+    font-size: 0.7em;
+    line-height: 12px;
+    min-height: 70px;
+    padding: 2px;
+    width: 14.28%;
+
+    ul {
+        list-style-type: none;
+
+        margin: 0;
+        padding: 0;
+    }
+}
+.cell_container{
+    min-height: 70px;
+}

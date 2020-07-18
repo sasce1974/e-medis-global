@@ -1,0 +1,25 @@
+.user-details{
+    font-size: 1rem;
+    color: #444;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.user-label{
+    display: inline-block;
+    width: 10em;
+    font-style: italic;
+}
+.user-data{
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#kor_form{
+    max-width: 800px;
+    }
+#kor_form .input-group .input-group-prepend .input-group-text{
+    min-width: 10em;
+}
